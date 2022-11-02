@@ -9,8 +9,8 @@ local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "jwt-keycloak"
 supported_platforms = {"linux", "macosx"}
 
 source = {
-  url = "git://github.com/dkoltsuk/kong-plugin-jwt-keycloak",
-  tag = "v1.1.0",
+  url = "git://github.com/raviverma-ai/kong-plugin-jwt-keycloak",
+  tag = "v1.1.0-1",
 }
 description = {
   summary = "A Kong plugin that will validate tokens issued by keycloak",
